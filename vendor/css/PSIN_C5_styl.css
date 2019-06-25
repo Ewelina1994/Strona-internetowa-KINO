@@ -1,0 +1,408 @@
+@charset 'utf-8';
+/* PSIN - styl CSS dla strony z listy C5 */
+
+
+/* ------------------------------------- */
+/* Styl ogólny */
+
+body {
+    font-family: 'Lucida Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+p {
+    padding: 10px 0px 10px 5px;
+}
+
+/* ------------------------------------- */
+/* Styl nagłówka */
+
+header {
+    position: absolute;
+    margin: auto;
+    min-width: 688px;
+    min-height: 100px;
+    background-color: #a6ccdb;
+    color: #000000;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+header h3 {
+    font-size: 40pt;
+    line-height: 100px;
+    /*wysokosc linii miedzy wierszami*/
+    margin: 0px;
+    padding: 0px;
+}
+
+.naglowek {
+    position: relative;
+    margin: auto;
+    min-width: 700px;
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+}
+
+.naglowek:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    position: absolute;
+    float: left;
+    left: 200px;
+    width: 30%;
+}
+
+.logo a {}
+
+.naglowek_text {
+    position: absolute;
+    left: 50%;
+    width: 70%;
+    background-color: green;
+    padding: 5px;
+    min-width: 700px;
+    max-width: 1100px;
+    margin: auto;
+    text-align: left;
+    */
+}
+
+
+/* ------------------------------------- */
+/* Styl środka */
+
+div#srodek {
+    position: absolute;
+    margin: auto;
+    min-width: 700px;
+    max-width: 1100px;
+    padding: 0;
+    min-height: 415px;
+    background-color: #5b6d74;
+
+    width: 100%;
+}
+
+.artykul {
+    position: relative;
+    background-color: rgb(194, 241, 255);
+    padding: 10px;
+    color: #000000;
+    text-align: justify;
+    font-size: 14px;
+    padding: 5px;
+    margin: 5px 232px 5px 5px;
+    border: 1px solid black;
+    top: 0px;
+    bottom: 0px;
+    margin: 5px;
+    border: 1px solid black;
+
+}
+
+.baner {
+    position: absolute;
+    width: 100%;
+    left:50px;
+}
+
+.discrabe_move {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    background-color: #708090;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.postcontent {
+    position: relative;
+}
+
+.img {
+    position: absolute;
+    widows: 30%
+}
+
+description {
+    position: absolute;
+    display: block;
+    background-color: #A8A8A8;
+    width: 70%;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    padding: 5px;
+}
+
+
+aside#prawy {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 200px;
+    background-color: #00c3ff;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid black;
+
+}
+
+/* ------------------------------------- */
+/* Styl stopki */
+
+footer {
+    position: absolute;
+    min-height: 50px;
+    min-width: 688px;
+    background-color: red;/*#a6ccdb;*/
+    padding: 5px;
+    text-align: center;
+    line-height: 70px;
+    border: 1px solid black;
+    bottom: 0;
+}
+
+/* ------------------------------------- */
+/* Styl menu */
+
+nav {
+    margin: auto;
+    padding: 0;
+    min-width: 700px;
+    max-width: 1100px;
+    height: 35px;
+
+    border-top: 0;
+}
+
+nav ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #cecece;
+    min-width: 125px;
+}
+
+nav li {
+    float: left;
+    border-right: 2px solid #080400;
+}
+
+nav li a {
+    display: inline-block;
+    color: #000000;
+    text-align: center;
+    padding: 9px 12px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+/*
+@media (max-width: 700px)
+{
+
+    header
+    {
+        position: relative;
+        margin: auto;
+        width: 700px;
+        background-color: #a6ccdb;
+        color: #000000;
+        padding: 5px;
+        border: 1px solid black;
+    }
+
+    header h1
+    {
+        font-size: 20pt;
+        line-height: 100px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    div#naglowek_text
+    {
+        padding: 5px;
+        min-width: 700px;
+        max-width: 900px;
+        margin: auto;
+        text-align: left;
+    }
+
+
+
+    div#srodek
+    {
+        position: relative;
+        margin: auto;
+        width: 700px;
+        padding: 0;
+        min-height: 415px;
+        background-color: #5b6d74;
+        border: 1px solid black;
+    }
+
+    article
+    {
+        position: absolute;
+        background-color: rgb(194, 241, 255);
+        padding: 10px;
+        color: #000000;
+        text-align: justify;
+        font-size: 14px;
+        padding: 5px;
+        margin: 232px 5px 232px 5px;
+        min-height: 393px;
+        border: 1px solid black;
+        top: 0px;
+        bottom: 0px;
+
+    }
+
+    aside#prawy
+    {
+        position: absolute;
+        bottom: 0px;
+        width: 200px;
+        min-height: 380px;
+        background-color: #00c3ff;
+        padding: 10px;
+        margin: 5px;
+        border: 1px solid black;
+        
+
+    }
+
+    aside#lewy
+    {
+        position: absolute;
+        top: 0px;
+        width: 680px;
+        min-height: 380px;
+        background-color: #00c3ff;
+        padding: 10px;
+        margin: 5px;
+        border: 1px solid black;
+
+    }
+
+
+
+    footer
+    {
+        min-height: 70px;
+        width: 700px;
+        background-color: #a6ccdb;
+        padding: 5px;
+        text-align: center;
+        line-height: 70px;
+        border: 1px solid black;
+
+        width: 100%;
+    }
+
+
+
+    nav
+    {
+        margin: auto;
+        padding: 0;
+
+        width: 700px;
+        height: 35px;
+        border: 1px solid black;
+        border-top: 0;
+
+    }
+
+    nav ul 
+    {
+        text-align: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #cecece;
+        min-width: 125px;
+    }
+    
+    nav li 
+    {
+        float: left;
+        border-right: 2px solid #080400;
+    }
+
+    nav li a, .dropbtn 
+    {
+        display: inline-block;
+        color: #000000;
+        text-align: center;
+        padding: 9px 12px;
+        text-decoration: none;
+    }
+
+    nav li a:hover, .rozwijalne:hover .dropbtn 
+    {
+        background-color: #000000;
+        color: #ffffff;
+    }
+    
+    nav li.rozwijalne 
+    {
+        display: inline-block;
+    }
+    
+    nav .rozwijalne_zawartosc
+    {
+        display: none;
+        position: absolute;
+        background-color: #ffdfc5;
+        min-width: 180px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    
+    nav .rozwijalne_zawartosc a 
+    {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        height: 26px;
+        padding: 3px;
+    }
+    
+    nav .rozwijalne_zawartosc a:hover 
+    {
+        background-color: #ece4dc;
+        color: black;
+    }
+
+    nav .rozwijalne:hover .rozwijalne_zawartosc
+    {
+        display: block;
+    }
+
+    }
+    */

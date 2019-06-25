@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang=pl>
+    <head>
+        <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+        <title>Programowanie serwisów internetowych. Lista C5.</title>
+        <meta name='keywords' content='serwisy, internetowe, programowanie' />
+        <meta name='author' content='Ewelina Kłobut' />
+        <link rel='Stylesheet' href='../vendor/css/PSIN_C5_styl.css' type='text/css' />
+    </head>
+
+    <body>
+        <header>
+            <div class='naglowek'>
+                <section class='logo'>
+                    <a href='/21,Rzeszow/StronaGlowna/'>
+                        <img src='../assets/sloneczko.png' alt='Słoneczko'>
+                    </a>
+                </section>
+                <div id='naglowek_text'>
+                    <h1>Kino słoneczko</h1>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href='strona_glowna.php' class='nav-link'>Oferta</a></li>
+                <li><a href='P22_C10_tabela.php' class='nav-link'>Repertuar</a></li>
+                <li><a href='cennik.html' class='nav-link'>Cennik</a></li>
+                <li><a href='P22_C10_regulamin.php' class='nav-link'>Regulamin</a></li>
+                <li><a href='P22_C10_dojazd.php' class='nav-link'>Jak do nas trafić</a></li>
+                <li><a href='P22_C10_kontakt.php' class='nav-link'>Kontakt</a></li>
+            </ul>
+        </nav>
+        <div id='srodek'>
+            <article>
+                <div class='content'>
+                    <div class=banner style='margin-left: 20px'>
+                        <img src='http://www.kinoteatrslonko.pl/www/wp-content/uploads/2019/05/Wymarzony-cover.jpg' name='slide' width='700' height='350'>
+
+                        <script type ='text/javascript'>
+                            var i=0;
+                            var images=[];
+                            images[0]='http://www.kinoteatrslonko.pl/www/wp-content/uploads/2019/05/Wymarzony-cover.jpg';
+                            images[1]='http://www.kinoteatrslonko.pl/www/wp-content/uploads/2019/05/Topielisko-klątwa-la-llorony-cover.jpg';
+                            images[2]='http://www.kinoteatrslonko.pl/www/wp-content/uploads/2019/05/Korek-i-Julia-Bartkowiak-cover.jpg';
+                            images[3]='http://www.kinoteatrslonko.pl/www/wp-content/uploads/2019/05/John-Wick-3-cover.jpg';
+                            images[4]='http://www.kinoteatrslonko.pl/www/wp-content/uploads/2019/05/Paskudy.-UglyDolls-cover.jpg';
+                            images[5]='http://www.kinoteatrslonko.pl/www/wp-content/uploads/2019/05/Trzy-kroki-od-siebie-cover.jpg';
+                            images[6]='http://www.kinoteatrslonko.pl/www/wp-content/uploads/2019/02/Reklama-w-kinie-cover.jpg';
+                            images[7]='http://www.kinoteatrslonko.pl/www/wp-content/uploads/2018/03/Terminal-płatniczy-2-cover.jpg';
+                            images[8]='http://www.kinoteatrslonko.pl/www/wp-content/uploads/2018/09/2018-kino-szkola1-cover.jpg';
+                            function slideit()
+                            {
+                                document.images.slide.src=images[i];
+                                if(i<images.length-1)
+                                    i++
+                                else
+                                    i=0
+                                setTimeout('slideit()',2500)
+                            }
+                            slideit()
+                        </script>
+                    </div>
+                    <p> 
+                    Jedno z największych tsunami w historii 
+                    powstało 22 maja 1960r., ponad 160km od wybrzeża Chile. 
+                    W 15 minut po tym, jak ziemia zatrzęsła się z siłą aż 
+                    9,5 stopni w skali Richtera, ogromna fala o wysokości blisko 
+                    25m dotarła do wybrzeża. 15 godzin póżniej fala tsunami 
+                    uderzyła na Hawajach, a w 22 godziny po trzęsieniu ziemi dotarła 
+                    do Japonii, oddalonej o ponad 16 000 kilometrów od epicentrum 
+                    tsunami.
+                    </p>
+                </div>
+            </article>
+            <aside id='prawy'>
+                <h2>Czy rzeczywiście Polacy piją najwięcej?</h2>
+                <p>
+                    Nie! To tylko często powtarzany mit. Polacy nie znajdują się 
+                    nawet w pierwszej dziesiątce najbardziej 'pijanych' państw na świecie. 
+                    Statystyczny Polak każdego roku wypija około 12,5 litra czystego 
+                    alkoholu. Białorusini średnio każdego roku 
+                    spożywają 17,5 litra alkoholu.
+                </p>
+                
+            </aside>
+        </div>
+        <footer>
+            <h3>ⓒ by Ewelina Kłobut</h3>
+        </footer>
+    </body>
+</html>

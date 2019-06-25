@@ -1,0 +1,260 @@
+@charset 'utf-8';
+/* PSIN - styl CSS dla strony przyk³adowej C3. */
+
+
+/* ---------------------------------------------- */
+/* Styl tabeli. */
+
+table
+{
+	text-align: center;
+	border-spacing: 0px;
+    color: #640000;
+    background-color: transparent;
+    table-layout: fixed;
+    min-width: 800px;
+    padding: 0px;
+}
+
+p
+{
+    color: #5a1b09;
+}
+
+
+thead
+{
+	background-color: #ffffff;
+    font-weight: bold;
+    height: 30px;
+    border-bottom: 100px solid #004080;
+}
+
+ thead td
+{
+	border-bottom: 2px solid #8a4848;
+    
+}
+
+thead a
+{
+    text-decoration: none;
+    color: #482626;
+    display: block;
+}
+
+thead a:hover
+{
+    text-decoration: underline;
+    color: brown;
+}
+
+tr
+{
+	 border-bottom: 1px solid #000000;
+}
+
+
+tbody tr:nth-child(even) 
+{
+    background-color: #f8f3f1;
+}
+
+tbody td
+{
+    border-bottom: 1px solid #c89285;
+    height: 30px;
+}
+
+tfoot
+{
+	text-align: left;
+    font-weight: bold;
+    height: 30px;
+	
+}
+
+tfoot td
+{
+    border-top: 1px solid #8a4848;
+    border-bottom: 1px solid #8a4848;
+    padding-left: 10px;
+    height: 30px;
+}
+
+
+#srednia
+{
+    background-color: #ffeedd;
+    text-align: center;
+	font-weight: bold;
+}
+
+
+
+/* //////////////////////////FORMULARZ/////////////////////////// */
+
+label
+{
+    display: block;
+    min-width: 130px;
+    float: left;
+}
+
+fieldset
+{
+    width: 420px;
+    border: 1px dotted #9d4f4f;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+p.lbl
+{
+    line-height: 30px; /* Wysrodkowanie tekstu w pionie */
+    margin: 10px 0px 0px 0px;
+}
+
+
+select
+{
+    width: 280px;
+    border-radius: 3px;
+    border: 1px solid #c0c0c0;
+    padding: 5px 5px 5px 5px;
+}
+
+option
+{
+    padding: 2px 5px 2px 5px;
+}
+
+input[type=text], input[type=password]
+{
+    width: 260px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 3px;
+}
+
+
+input[type=text]:focus, input[type=password]:focus
+{
+    border: 1px solid #c89879;
+    box-shadow: 0px 0px 5px #c89879;
+    
+}
+
+label.rc
+{
+    width:300px;
+}
+
+input[type=checkbox], input[type=radio]
+{
+    margin-left: 130px;
+}
+
+textarea
+{
+    width: 420px;
+    height: 50px;
+    padding: 10px;
+}
+
+input[type=submit], input[type=reset]
+{
+    min-height: 30px;
+    min-width: 90px;
+    border-radius: 5px;
+    padding: 7px 10px 7px 10px;
+}
+
+input[type=submit]
+{
+    background-color: blue;
+    color:white;
+    border: 1px solid #004a95;
+}
+
+input[type=reset]
+{
+    background-color: #ffffff;
+    color:#4f4f4f;
+    border: 1px solid #606060;
+}
+
+input[type=submit]:hover, input[type=submit]:focus
+{
+    background-color: #2185e8;
+}
+
+input[type=reset]:hover, input[type=reset]:focus
+{
+    background-color: #e3e6e8;
+}
+
+
+/* ///////////////////////////style komunikatów/////////////// */
+
+.msg
+{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.success
+{
+    background-color: #86db5a;
+    border: 1px solid #488b1f
+}
+
+.error
+{
+    background-color: #ef3636;
+    border: 1px solid #a51f29;
+}
+
+.info
+{
+    background-color: #4d41db;
+    border: 1px solid #171c91;
+}
+
+.warn
+{
+    background-color: #f4ee6e;
+    border: 1px solid #d6de07;
+}
+
+.def
+{
+    background-color: #989595;
+    border: 1px solid #554e4e
+}
+
+td.tbl_operations
+{
+    min-width: 80px;
+}
+
+/* /////////////////////////////BODY///////////////////////// */
+body
+{
+    color: #482626;
+    background-color: #ffffff;
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-size: small;
+    
+}
+
+h2
+{
+    font-size: large;
+}
+
+h2:first-letter
+{
+    font-size: xx-large;
+}
